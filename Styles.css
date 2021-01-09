@@ -1,0 +1,36 @@
+.numbers {
+    width: 85px;
+    height: 70px;
+    color:#ccccc;
+    margin:1px;
+    font-family:-apple-system;
+    font-size: 1.2em;
+}
+
+.remove {
+    width: 174px;
+    height: 70px;
+    color:#ccccc;
+    margin:2px;
+    font-family:-apple-system;
+    font-size: 1.2em;
+}
+
+.input {
+    width: 350px;
+    height: 80px;
+    color:#ccccc;
+    margin:1px;
+    font-family:-apple-system;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: right;
+}
+
+.calc {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    background-color: #ccc;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+<div class="calc">
+<input class="input" id="input"></input><br/>
+<button class="numbers" onclick="clr()">C</button>
+<button id="remove" class="remove" onclick="removeLastChar()"><=</button>
+<button id="divide" class="numbers" onclick="divide()">/</button>
+<br/>
+<button id="number7" class="numbers" onclick="numberSeven()">7</button>
+<button id="number8" class="numbers" onclick="numberEight()">8</button>
+<button id="number9" class="numbers" onclick="numberNine()">9</button>
+<button id="multiple" class="numbers" onclick="multiple()">x</button>
+<br/>
+<button id="number4" class="numbers" onclick="numberFour()">4</button>
+<button id="number5" class="numbers" onclick="numberFive()">5</button>
+<button id="number6" class="numbers" onclick="numberSix()">6</button>
+<button id="sub" class="numbers" onclick="sub()">-</button>
+<br/>
+<button id="number1" class="numbers" onclick="numberOne()" >1</button>
+<button id="number2" class="numbers" onclick="numberTwo()">2</button>
+<button id="number3" class="numbers" onclick="numberThree()">3</button>
+<button id="sum"class="numbers" onclick="sum()">+</button>
+<br/>
+<button id="number0" class="numbers" onclick="numberZero()">0</button>
+<button class="numbers" onclick="comma()">,</button>
+<button id="equal" class="remove" onclick="equal()">=</button>
+    <script src="App.js"></script>
+</div>
+</body>
+</html>
